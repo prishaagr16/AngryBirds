@@ -16,6 +16,9 @@ constructor(body1,pointB){
 fly(){
     this.sling.bodyA = null;
 }
+attach(body){
+    this.sling.bodyA = body;
+}
 display(){
     image(this.sling1,200,80);
     image(this.sling2,170,80);
