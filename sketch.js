@@ -1,3 +1,9 @@
+var array1 = [1,2,3,4,5];
+console.log(array1);
+var array2 = [[1,2],[4,5,6],[7,8]];
+console.log(array2);
+console.log(array1[3]);
+console.log(array2[1][1]);  
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
